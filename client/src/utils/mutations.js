@@ -61,6 +61,11 @@ mutation removeBook ($bookId: String!){
     bookCount
     savedBooks{
       bookId
+      authors
+      image
+      link
+      title
+      description
     }
   }
 }`
