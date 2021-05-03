@@ -14,27 +14,17 @@ import { GET_ME } from "../utils/queries";
 import { REMOVE_BOOK } from "../utils/mutations";
 
 const SavedBooks = () => {
-  // const [userData, setUserData] = useState({}); // TODO: FIX ME!
-
   const { loading, data } = useQuery(GET_ME);
-  const userData = data?.me || {}; // TODO: FIX ME!
+  const userData = data?.me || [];
 
   const [removeBook, { error }] = useMutation(REMOVE_BOOK);
 
-  // use this to determine if `useEffect()` hook needs to run again
-  // create function that accepts the book's mongo _id value as param and deletes the book from the database
   const handleDeleteBook = async (bookId) => {
     const token = Auth.loggedIn() ? Auth.getToken() : null;
     if (!token) {
       return false;
     }
-
     try {
-      // const response = await deleteBook(bookId, token);
-      console.log(
-        "YAY in handleDeleteBook FRONT END" + typeof bookId + " " + bookId
-      );
-
       const response = await removeBook({
         variables: { bookId: bookId },
       });
@@ -42,10 +32,6 @@ const SavedBooks = () => {
       if (!response) {
         throw new Error("something went wrong!");
       }
-      const updatedUser = response;
-      // setUserData(updatedUser); => FIX ME!
-
-      // upon success, remove book's id from localStorage
       removeBookId(bookId);
     } catch (err) {
       console.error(error);

@@ -48,7 +48,6 @@ const resolvers = {
       throw new AuthenticationError("You need to be logged in!");
     },
     removeBook: async (parent, { bookId }, context) => {
-      console.log("YAY IN RESOLVER!!!" + bookId);
       if (context.user) {
         const updatedUser = await User.findOneAndUpdate(
           { _id: context.user._id },
