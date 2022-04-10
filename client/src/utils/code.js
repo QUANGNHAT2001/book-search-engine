@@ -703,7 +703,7 @@
       //"selfLink": "https://www.googleapis.com/books/v1/volumes/gG45ywEACAAJ",
       "volumeInfo": {
         "title": "Lý luận",
-        "subtitle": "A Systematic Method for Improving Execution Speeds",
+        "subtitle": "Xử lý ảnh cô Kim Nga",
         "authors": [
           "Jesper Wisborg Krogh"
         ],
