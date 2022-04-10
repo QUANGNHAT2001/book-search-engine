@@ -702,7 +702,7 @@
       "etag": "8UFdbED7Yyg",
       "selfLink": "https://www.googleapis.com/books/v1/volumes/gG45ywEACAAJ",
       "volumeInfo": {
-        "title": "Lý luận",
+        "title": "Xử lý ảnh cô Kim Nga",
         "subtitle": "Xử lý ảnh cô Kim Nga",
         "authors": [
           "Jesper Wisborg Krogh"
