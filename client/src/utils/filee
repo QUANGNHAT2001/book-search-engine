@@ -1,0 +1,62 @@
+{
+  "kind": "books#volume",
+  "id": "jmpYAAAAYAAJ",
+  "etag": "MUenJX/BNiY",
+  "selfLink": "https://www.googleapis.com/books/v1/volumes/jmpYAAAAYAAJ",
+  "volumeInfo": {
+    "title": "Xử lý ảnh cô Kim Nga",
+    "subtitle": "Learner's Guide",
+    "publisher": "International Business Machines Corporation",
+    "publishedDate": "1989",
+    "readingModes": {
+      "text": false,
+      "image": false
+    },
+    "pageCount": 222,
+    "printedPageCount": 242,
+    "dimensions": {
+      "height": "28.00 cm"
+    },
+    "printType": "BOOK",
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.4.2.0.preview.0",
+    "panelizationSummary": {
+      "containsEpubBubbles": false,
+      "containsImageBubbles": false
+    },
+    "imageLinks": {
+      "smallThumbnail": "http://books.google.com/books/content?id=jmpYAAAAYAAJ&printsec=frontcover&img=1&zoom=5&imgtk=AFLRE71OIMSQVwOGBnQ4x5cnMipW2JOLYxQVB-CUE1cZz_UDmHhmA0Jdq6u0FCLFnCQAWNZJUVivGOQWPTj0IKfGSQs-t_HIvK7cobKGucm8m32bMizvIuOBKWNjx9hsQWYWXA2RZg6g&source=gbs_api",
+      "thumbnail": "http://books.google.com/books/content?id=jmpYAAAAYAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE72LQ5S5rEXYKvYcTXkRqvBGBiA2ZkKFAVf0vCYcoctUOAnDZE7I-bkHmVFvaLVFq9VegUkRvUhzoPDSlL0CpylX7XuZfpma_uCtHQKrpvGPMV9Zz1pW2jIxWFN2IFNC1TJW5B1M&source=gbs_api",
+      "small": "http://books.google.com/books/content?id=jmpYAAAAYAAJ&printsec=frontcover&img=1&zoom=2&imgtk=AFLRE73M_Bb8qVgaZ6mDMsI8ZyaN8v2c5ax5FeH-h8L3kEq2z6TlHnEUJTlXMjKcvbeA0hqKWDdKNxEGIol6M3w_tcttV7_-3XS2_VKMXRZU45nKVfY6d3gKqoccpn-9yIntB_dGv-Ra&source=gbs_api",
+      "medium": "http://books.google.com/books/content?id=jmpYAAAAYAAJ&printsec=frontcover&img=1&zoom=3&imgtk=AFLRE72AAr_he0Zc7kAmMnKBIXYU6_jLJF-IwX2KySIBRhW18XwNo2PxFCt2omq_oG6z_enS5S2xqLywesp-cMUl_34EMH43YV1hm3tYvCNGFrA70-1_7H0q-RLQYmUZMIFOh9HHfgE-&source=gbs_api",
+      "large": "http://books.google.com/books/content?id=jmpYAAAAYAAJ&printsec=frontcover&img=1&zoom=4&imgtk=AFLRE72GBhXbKMfg4B0FYWMp9UyUlrDVxWWrkg2dl30iKvDFdmyAdssul8sF6XvABq5ybtdBcgabLmVI9fSrz8Qv1lU-wOi5JuNrLQ2XiXeK3kO4iJlCl5hWmix5N2NXmVEPPK9Zf7QB&source=gbs_api",
+      "extraLarge": "http://books.google.com/books/content?id=jmpYAAAAYAAJ&printsec=frontcover&img=1&zoom=6&imgtk=AFLRE72gy0QltcToC-XR8KVar4N6YPM1IEA3EfHdqICEGFyIILldd3YUKtFOLaUXoDGZpWVSR6UiVulm8FRISyVlSfb9iHxLBxekjZX1Z-5Jo4Uq1MePrwh-f-wjltPlwz68LRT5lSg3&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com.vn/books?id=jmpYAAAAYAAJ&hl=&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=jmpYAAAAYAAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=jmpYAAAAYAAJ"
+  },
+  "saleInfo": {
+    "country": "VN",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+  },
+  "accessInfo": {
+    "country": "VN",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+      "isAvailable": false
+    },
+    "pdf": {
+      "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=jmpYAAAAYAAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+  }
+}
