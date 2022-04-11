@@ -1,7 +1,7 @@
 // make a search to google books api
 // https://www.googleapis.com/books/v1/volumes?q=harry+potter
 export const searchGoogleBooks = (query) => {
-  return fetch(`"kind": "books#volume",
+  return fetch(`{"kind": "books#volume",
       "id": "gG45ywEACAAJ",
       "etag": "8UFdbED7Yyg",
       "selfLink": "https://www.googleapis.com/books/v1/volumes/gG45ywEACAAJ",
