@@ -93,5 +93,6 @@ I' = 1 ",
       },
       "searchInfo": {
         "textSnippet": "This book will help you make query tuning an integral part of your daily routine through a multi-step process that includes monitoring of execution times, identifying candidate queries for optimization, analyzing their current performance, ..."
+      }
       }`);
 };
